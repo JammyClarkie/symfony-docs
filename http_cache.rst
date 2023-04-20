@@ -250,7 +250,7 @@ for debugging information about cache hits and misses.
     The URI of the request is used as the cache key (unless you :doc:`vary </http_cache/cache_vary>`).
 
 This provides great performance and is simple to use. But, cache *invalidation*
-is not supported. If your content change, you'll need to wait until your cache
+is not supported. If your content changes, you'll need to wait until your cache
 expires for the page to update.
 
 .. tip::
